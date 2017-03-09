@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D620DEBD1E67FCEC00BE8DB9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620DEBC1E67FCEC00BE8DB9 /* WebViewController.swift */; };
+		D620DEC11E6819B600BE8DB9 /* CIImage+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620DEC01E6819B600BE8DB9 /* CIImage+UIImage.swift */; };
 		D648BEC31E67C55C00CBCB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648BEC21E67C55C00CBCB86 /* AppDelegate.swift */; };
 		D648BEC51E67C55C00CBCB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648BEC41E67C55C00CBCB86 /* ViewController.swift */; };
 		D648BEC81E67C55C00CBCB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D648BEC61E67C55C00CBCB86 /* Main.storyboard */; };
 		D648BECA1E67C55D00CBCB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648BEC91E67C55D00CBCB86 /* Assets.xcassets */; };
 		D648BECD1E67C55D00CBCB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D648BECB1E67C55D00CBCB86 /* LaunchScreen.storyboard */; };
+		D648BED51E67CA3800CBCB86 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648BED41E67CA3700CBCB86 /* QRCodeViewController.swift */; };
+		D648BED71E67CA7300CBCB86 /* QRBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648BED61E67CA7300CBCB86 /* QRBackgroundView.swift */; };
+		D648BED91E67CD4F00CBCB86 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D648BED81E67CD4F00CBCB86 /* QRCodeScanLine@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D620DEBC1E67FCEC00BE8DB9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D620DEC01E6819B600BE8DB9 /* CIImage+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CIImage+UIImage.swift"; sourceTree = "<group>"; };
 		D648BEBF1E67C55C00CBCB86 /* QrCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D648BEC21E67C55C00CBCB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D648BEC41E67C55C00CBCB86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		D648BEC91E67C55D00CBCB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D648BECC1E67C55D00CBCB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D648BECE1E67C55D00CBCB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D648BED41E67CA3700CBCB86 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		D648BED61E67CA7300CBCB86 /* QRBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRBackgroundView.swift; sourceTree = "<group>"; };
+		D648BED81E67CD4F00CBCB86 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		D648BEC11E67C55C00CBCB86 /* QrCode */ = {
 			isa = PBXGroup;
 			children = (
+				D648BED81E67CD4F00CBCB86 /* QRCodeScanLine@2x.png */,
 				D648BEC21E67C55C00CBCB86 /* AppDelegate.swift */,
 				D648BEC41E67C55C00CBCB86 /* ViewController.swift */,
+				D620DEC01E6819B600BE8DB9 /* CIImage+UIImage.swift */,
+				D648BED41E67CA3700CBCB86 /* QRCodeViewController.swift */,
+				D648BED61E67CA7300CBCB86 /* QRBackgroundView.swift */,
+				D620DEBC1E67FCEC00BE8DB9 /* WebViewController.swift */,
 				D648BEC61E67C55C00CBCB86 /* Main.storyboard */,
 				D648BEC91E67C55D00CBCB86 /* Assets.xcassets */,
 				D648BECB1E67C55D00CBCB86 /* LaunchScreen.storyboard */,
@@ -125,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D648BECD1E67C55D00CBCB86 /* LaunchScreen.storyboard in Resources */,
+				D648BED91E67CD4F00CBCB86 /* QRCodeScanLine@2x.png in Resources */,
 				D648BECA1E67C55D00CBCB86 /* Assets.xcassets in Resources */,
 				D648BEC81E67C55C00CBCB86 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D648BED51E67CA3800CBCB86 /* QRCodeViewController.swift in Sources */,
+				D620DEC11E6819B600BE8DB9 /* CIImage+UIImage.swift in Sources */,
 				D648BEC51E67C55C00CBCB86 /* ViewController.swift in Sources */,
 				D648BEC31E67C55C00CBCB86 /* AppDelegate.swift in Sources */,
+				D620DEBD1E67FCEC00BE8DB9 /* WebViewController.swift in Sources */,
+				D648BED71E67CA7300CBCB86 /* QRBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = QrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.QrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = QrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.QrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +322,7 @@
 				D648BED31E67C55D00CBCB86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
